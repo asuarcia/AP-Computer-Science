@@ -1,0 +1,15 @@
+To save and upload your changes to GitHub, run these three commands in order:
+
+Stage all changed files:
+
+Bash
+git add .
+Commit your changes with a message describing what you updated:
+
+Bash
+git commit -m "Describe what you changed here"
+Push your committed changes to GitHub:
+
+Bash
+git push
+Tip: If you only want to stage a single file instead of everything you modified, replace . with the file name (e.g., git add Main.java).
