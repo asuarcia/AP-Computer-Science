@@ -1,5 +1,7 @@
 public class BasicManipulations {
     public static void main(String[] args) {
+        System.out.println("Program");
+
 /*         
 Task 1
     System.out.print("A");
