@@ -1,6 +1,21 @@
-public class ObjectsMethods {
+public class weatherPattern{
     public static void main(String [] args) {
-/* 
+    
+        int eastW;
+        int northW;
+        System.out.println("Wind is picking up!");
+        eastW = -4;
+        System.out.println("East wind is: " + eastW);
+
+
+    }
+}
+
+
+
+/*public class ObjectsMethods {
+    public static void main(String [] args) {
+
         int math = 1;
         int science = 6;
         int art = 7;
@@ -8,7 +23,7 @@ public class ObjectsMethods {
         System.out.print("I take math period: ");
         System.out.println(math);
         System.out.println("I take science period: " + science);
-*/
+
 
         int popcorn= 3;
         int mm= 4;
@@ -19,5 +34,7 @@ public class ObjectsMethods {
         System.out.println("nerdscluster = " + nerdscluster);
         int total = popcorn + mm + nerdscluster;
         System.out.println("total = " + total);
+
+
     }      
-}
+}  */
