@@ -1,10 +1,9 @@
 public class BasicManipulations {
     public static void main(String[] args) {
-        System.out.println("Program");
-
 /*         
+PROGRAM 0:
 Task 1
-    System.out.print("A");
+    System.out.print("A ");
     System.out.println("OneTwo");
         Output: 
     A OneTwo
@@ -68,7 +67,97 @@ Task 8
     Three
     Four
     "five"
-             six */
+             six 
+Task 9
+    System.out.println("I One\nTwo\nThree\nFour\n\"five\"");
+    System.out.println("\tsix\n\\seven/"); // Lets a single "\" show up in print statement
+        console window:
+    I One
+    Two
+    Three
+    Four
+    "five"
+            six
+    \seven/ 
+Task 10
+    System.out.println("10");
+    System.out.println(10);
+        console window:
+    10
+    10
+
+Task 11
+    System.out.println("10+10");
+    System.out.println(10+10);
+        console window:
+    10+10
+    20 
+Task 12
+    System.out.println("10+10");
+    System.out.println(10+10);
+    System.out.println("The length is " + 10); 
+        console window:
+    10+10
+    20
+    The length is 10 
+Task 13
+    System.out.println("10+10");
+    System.out.println(10+10);
+    System.out.println("The length is " + 10); 
+    System.out.println("The width is " + 5); 
+        console window:
+    10+10
+    20
+    The length is 10
+    The width is 5 
+
+Task 14:
+    System.out.println("10+10");
+    System.out.println(10+10);
+    System.out.println("The length is " + 10); 
+    System.out.println("The width is " + 5); 
+    System.out.println("The area is " + (5 * 10) + " square inches");
+        console window:
+    10+10
+    20
+    The length is 10
+    The width is 5
+    The area is 50 square inches  
+
+Task 15
+    System.out.println("10+10");
+    System.out.println(10+10);
+    System.out.println("The length is " + 10); 
+    System.out.println("The width is " + 5); 
+    System.out.println("The area is " + (5 * 10) + " square inches");
+    System.out.println("The area divided by the width is " + (50 / 5)); 
+        console window:
+    10+10
+    20
+    The length is 10
+    The width is 5
+    The area is 50 square inches
+    The area divided by the width is 10
+
+
+Task 16
+    System.out.println("10+10");
+    System.out.println(10+10);
+    System.out.println("The length is " + 10); 
+    System.out.println("The width is " + 5); 
+    System.out.println("The area is " + (5 * 10) + " square inches");
+    System.out.println("The area divided by the width is " + (50 / 5)); 
+    System.out.println();
+    System.out.println("The average of 5 and 10 is " + ((10 +5) / 2.0));
+        console window:
+    10+10
+    20
+    The length is 10
+    The width is 5
+    The area is 50 square inches
+    The area divided by the width is 10
+    
+    The average of 5 and 10 is 7.5 */
 
     }
 }
