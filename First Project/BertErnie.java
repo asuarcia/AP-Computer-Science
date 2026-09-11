@@ -4,8 +4,8 @@
 public class BertErnie {
     public static void main(String[] args) {
         
-        System.out.println(" \nBertErnie"); 
-        System.out.println("\tDrake\tJosh"); // This line is Indenting with the "\t" in fornt of the "Drake", and in between the names
+        System.out.println("\nBertErnie"); 
+        System.out.println("\tDrake\tJosh"); // This line is indented with the "\t" in front of the "Drake", and in between the names
 
     }
 }
