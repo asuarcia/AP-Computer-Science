@@ -12,7 +12,7 @@ public class House {
         System.out.println("\t |    _  |");
         System.out.println("\t |   | | |");
         System.out.println("\t |___| |_|");
-        System.out.println("\t \"Computer House\"");
+        System.out.println("\t \"Computer House\""); // This line is using the "\"" in order to display quotations when pritned
  /*         console window
             /\
            /  \
