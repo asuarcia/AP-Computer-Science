@@ -10,7 +10,6 @@ public class PerimeterAreaRec {
 	private int area;
 
 	public void setLengthWidth(int len, int wid){
-
 		length = len;
 		width = wid;
     System.out.println("The length is set to " + length);
