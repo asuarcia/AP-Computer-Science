@@ -5,13 +5,17 @@ package Chp2;
 */
 
 public class CircumfAreaCircle{
-    static double radius = 7;
+    private double radius;
 
-	public static double getCircumference(){
+	public CircumfAreaCircle(double r) {
+	radius = r;
+	}
+
+	public double getCircumference(){
         double circumference = 2 * 3.14159 * radius;
         return circumference;
     }
-    public static double calculateArea(){
+    public double calculateArea(){
         double area = 3.14159 * radius * radius;
         return area;
     }
@@ -22,7 +26,7 @@ public class CircumfAreaCircle{
         System.out.println("The area of the circle is: " + calculateArea());
     }
 public static void main(String [] args){
-    CircumfAreaCircle circle = new CircumfAreaCircle();
+    CircumfAreaCircle circle = new CircumfAreaCircle(7.0);
 
     circle.Print();
 }
