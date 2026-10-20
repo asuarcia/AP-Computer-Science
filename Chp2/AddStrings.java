@@ -1,6 +1,6 @@
-// Student Name
+// Aitor Suarez
 // Chapter 02
-// Program: AddStrings Class
+// Homework 13
 
 public class AddStrings
 {
@@ -15,8 +15,8 @@ public class AddStrings
 
     public AddStrings(String one, String two)
     {
-        first = one; // Assigns the first word to the instance variable first
-        last = two;  // Assigns the second word to the instance variable last
+        first = one; 
+        last = two; 
     }
 
     public void setStrings(String one, String two)
@@ -27,7 +27,7 @@ public class AddStrings
 
     public String add()
     {
-        return first + last; // Concatenates the first and last strings into a single word
+        return first + last; 
     }
 
     public int findLength()
@@ -44,7 +44,7 @@ public class AddStrings
 
     public static void main(String args[])
     {
-        // create an AddStrings object to test the names provided
+
         AddStrings name1 = new AddStrings("Maria", "Sanchez");
         System.out.println(name1.toString());
         System.out.println();
@@ -57,12 +57,12 @@ public class AddStrings
         System.out.println(name3.toString());
         System.out.println();
 
-        // Testing my name
-        AddStrings name4 = new AddStrings("Alex", "Smith");
+       
+        AddStrings name4 = new AddStrings("Aitor", "Suarez");
         System.out.println(name4.toString());
         System.out.println();
 
-        // Testing a friend's name
+ 
         AddStrings name5 = new AddStrings("Taylor", "Swift");
         System.out.println(name5.toString());
         System.out.println();
@@ -85,8 +85,8 @@ The length of the name “FridaKahlo” is 11.
 Here is the “sum” of the words SalvadorDali.
 The length of the name “SalvadorDali” is 13.
 
-Here is the “sum” of the words AlexSmith.
-The length of the name “AlexSmith” is 9.
+Here is the “sum” of the words AitorSuarez.
+The length of the name “AitorSuarez” is 11.
 
 Here is the “sum” of the words TaylorSwift.
 The length of the name “TaylorSwift” is 12.
