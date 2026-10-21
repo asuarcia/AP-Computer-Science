@@ -24,7 +24,7 @@ double candy_tot = candyCost * candy_amt;
 double hotdog_tot = hotDogCost * hotdog_amt;
 double hamburger_tot = hamburgerCost * hamburger_amt;
       
-double ctTaxRate = 0.0635; // State of CT sales tax (6.35%)
+double ctTaxRate = 0.0635; // CT sales tax (6.35%)
 double subtotal = drink_tot + candy_tot + hotdog_tot + hamburger_tot;
 double tax = subtotal * ctTaxRate;
 double total = subtotal + tax;
