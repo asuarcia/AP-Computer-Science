@@ -1,3 +1,5 @@
+package Chp2;
+
 public class LetterFun {
 	public String strange;
 	

@@ -55,3 +55,27 @@ double total = subtotal + tax;
    }
 }
 
+/* System output: 
+***************************************
+*                                     *
+*               Welcome               *
+*     Trevor Packer HS Snack Bar      *
+*                                     *
+*     Drink ..............$ 1.5       *
+*     Candy ..............$ 1.25      *
+*     Hot Dog ............$ 2.75      *
+*     Hamburger ..........$ 3.5       *
+*                                     *
+***************************************
+*     Order Number: 81                *
+*                                     *
+*  QTY        ITEM         TOTAL      *
+***************************************
+        1       Drink   1.5
+        0       Candy   0.0
+        2       Hot Dog 5.5
+        1       Hamburger  3.5
+**************************************
+   Subtotal     10.5
+   Tax          0.66675
+   Total        11.16675 */
