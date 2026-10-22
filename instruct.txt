@@ -1,0 +1,32 @@
+Task: The goal is to have you use objects, inputs, output formatting and some basic math concepts.
+
+Your goal is to ask the user for values of a, b, and c, all terms within the quadratic equation, 
+taken, as you know, from the standard form of a quadratic. 
+
+The Quadratic Equation is: x=-bb2-4 * a * c 2 * a 
+
+Conditions: 
+Create a new class named Quadratic
+Your name, the chapter, and program number should be commented into the first three lines 
+Create a default constructor.
+Do not consider when the discriminant is negative (I don’t want imaginary numbers).
+Use the default constructor to set instance variables to applicable default values. 
+Use the three parameter constructor provided in the skeleton to set the instance variables.
+The setEquation method should behave just like a constructor.
+The calcRoots method and print method should do just what you think.
+The skeleton for the runner is vague, please make use of a Scanner
+When you test your program please run with the input values as follows:
+5 -8 3
+3 2 -7
+9 6 1  
+A skeleton is provided, you must make additions
+Create 1 object using the initialization constructor. 
+Call the appropriate methods to generate the desired output (on the next page)
+Call then then setEquation method to reset the values without creating a new object.
+Copy your output and paste it as a remark after your closing curly brace
+Check over your work
+Leave at least three in line comment telling me what that line is doing
+Check over your work, run the file one last time to be sure it saved
+When your work has been graded it will be returned to you via GClassroom please look for comments. 
+Any comments indicating you could make corrections please resubmit your work if you choose to make the
+ corrections.
