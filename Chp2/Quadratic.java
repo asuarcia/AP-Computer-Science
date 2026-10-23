@@ -1,3 +1,6 @@
+/*Aitor Suarez
+  Chp 2
+  Homework 10 */
 import java.util.Scanner; 
 public class Quadratic {
 
