@@ -1,5 +1,3 @@
-package Chp2;
-
 import java.util.Scanner; 
 public class Quadratic {
 
@@ -34,8 +32,11 @@ public void print( ){
 public static void main( String[] args ) {
     Scanner input = new Scanner(System.in);
 
+    System.out.print("Enter 3 numbers, seperated by spaces: ");
     Quadratic calc1 = new Quadratic(input.nextInt(), input.nextInt(), input.nextInt());
+    System.out.print("Enter 3 numbers, seperated by spaces: ");
     Quadratic calc2 = new Quadratic(input.nextInt(), input.nextInt(), input.nextInt());
+    System.out.print("Enter 3 numbers, seperated by spaces: ");
     Quadratic calc3 = new Quadratic(input.nextInt(), input.nextInt(), input.nextInt());
 
     calc1.calcRoots();
