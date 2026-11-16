@@ -24,8 +24,7 @@ public class MuseumPricing {
     }
 
     public double priceBasedOnAge() {
-        // talk about your choices for logical operators/block of if and else
-        // I used a cascading if-else chain because the age ranges are mutually exclusive and sequential.
+        // I used an if-else chain because the age ranges are both exclusive and sequential.
         double cost = 0.0;
         
         if (age <= 5) {
@@ -46,7 +45,6 @@ public class MuseumPricing {
     }
 
     public String toString() {
-        // talk about at least one error you encountered here and how you addressed it
         // I had an issue printing raw boolean values cleanly, so I kept the output simple and readable.
         return "Age: " + age + " | Member: " + isMember + " | Total Price: $" + priceBasedOnAge();
     }
@@ -67,6 +65,4 @@ public class MuseumPricing {
     }
 }
 
-// We would need to track a group's composition (number of adults and kids) rather 
-// than just a single individual's age, update the constructors and inputs, and add 
-// a condition to check for the family pass flat rate.
+// We would need to track a group's composition (number of adults and kids) rather than just a single individual's age, update the constructors and inputs, and add a condition to check for the family pass flat rate.
