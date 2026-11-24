@@ -42,7 +42,6 @@ public class CoolNum
 		int count = 0;
 		// Loop through all integers starting from 6 up to the stop value
 		for (int i = 6; i <= stop; i++) {
-			// Call isCoolNumber to verify if the current number meets the criteria
 			if (isCoolNumber(i)) {
 				count++;
 			}
@@ -50,7 +49,6 @@ public class CoolNum
 		return count;
 	}
 
-	// Added a toString method with a parameter to easily print the final results in the required format.
 	public String toString( int stop ) {
 		return countCoolNumbers(stop) + " cool numbers between 6 - " + stop;
 	}
